@@ -89,10 +89,6 @@ header {
 main {
   padding: 5rem;
 }
-header {
-  height: 100px;
-  background-color: grey;
-}
 
 h2 {
   font-size: 40px;
@@ -102,6 +98,7 @@ h2 {
 .mission h2 {
   grid-row: 2 / span 1;
   grid-column: 1 / span 3;
+  justify-self: center;
 }
 .mission img {
   width: 70%;
@@ -120,7 +117,7 @@ h2 {
   grid-column: 1 / span 2;
   z-index: 2;
   text-align: right;
-  padding: 2rem;
+  padding: 5rem;
   margin: -10% -15% auto auto;
   width: 80%;
 }
@@ -134,10 +131,9 @@ h2 {
   grid-row: 1 / span 3;
   grid-column: 4 / span 2;
   z-index: 2;
-max-width: 80%;
+  max-width: 80%;
   margin-left: -5%;
   margin-bottom: -10%;
-  
 }
 
 /* vision */
@@ -158,18 +154,16 @@ max-width: 80%;
   grid-row: 1 / span 1;
   grid-column: 4 / span 2;
   align-self: end;
-  justify-self: start;  
-
+  justify-self: center;
 }
 
 .vision p {
   grid-row: 2 / span 1;
   grid-column: 4 / span 2;
-  z-index: 2;
-  text-justify: left;
   width: 80%;
   margin: auto;
   align-self: center;
+  text-justify: center;
 }
 .vision li:nth-child(3) {
   grid-row: 1 / span 2;
@@ -186,49 +180,45 @@ max-width: 80%;
 /* values */
 .community h2 {
   text-align: center;
-  margin: 0px;
+  margin: 3%;
 }
 .values img {
   width: 70%;
-  margin: auto;
+  margin:auto;
   display: block;
+  align-self: center;
 }
 .values {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 50px;
-  margin: auto;
+  grid-column-gap: 30px;
   margin: 0px auto 150px auto;
 }
 .values-container p h3 {
   grid-row: 1 / span 2;
   grid-column: 1 / span 1;
-  z-index: 2;
   margin: auto;
   text-justify: right;
-  padding: 2rem;
   max-width: 80%;
 }
 
 .values-container h3 {
   text-align: right;
-  margin: 4rem 0rem 2rem auto;
+  margin: 2rem 0rem 2rem auto;
 }
 .values-container p {
   text-align: right;
 }
 .values li {
-  grid-row: 1 / span 2;
+  grid-row: 1 / span 1;
   grid-column: 2 / span 1;
-  margin: auto;
-  display: block;
+   align-self: center;
 }
-
 
 /* more info */
 
-.more-info{
+.more-info {
   text-justify: center;
 }
 /* SLIDER */
@@ -240,7 +230,8 @@ max-width: 80%;
   max-width: 600px;
   position: absolute;
 }
-#buttonNext, #buttonPrev {
+#buttonNext,
+#buttonPrev {
   background-color: white;
   border: 1px solid blue;
   color: blue;
