@@ -250,44 +250,50 @@ p{
 
 /* newsletter */
 form {
-  border: 3px solid #f1f1f1;
+
   font-family: Arial;
   margin-top: 15%;
 }
 
 .container-2 {
   padding: 30px;
-  background-color: #f1f1f1;
+  background-color: rgb(255, 255, 255);
   width: 500px;
   margin: auto;
   display: block;
+  
+
 }
 .container-2 h2 {
   text-align: center;
-  margin: 7%;
+  margin: 10%;
 }
 
 input[type="text"],
 input[type="submit"] {
   width: 100%;
   padding: 12px;
-  margin: 8px 0;
+  margin: 9px auto;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 1px solid grey;
   box-sizing: border-box;
   font-size: 16px;
   font-family: "Quicksand", sans-serif;
   font-weight: 300;
+
 }
 
 input[type="checkbox"] {
-  margin-top: 16px;
+  margin-top: 30px;
+  
 }
 
 input[type="submit"] {
-  background-color: #2928ff;
-  color: white;
+  background-color: #9a89fe;
+  color: rgb(255, 255, 255);
   border: none;
+  width:100%;
+  margin: auto;
 }
 
 input[type="submit"]:hover {
