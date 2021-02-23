@@ -231,6 +231,10 @@ h2 {
   overflow: auto;
 }
 
+.slide img {
+  width: 960px;
+  height: 365px;
+}
 #carousel .slide {
   display: inline-block;
 }
