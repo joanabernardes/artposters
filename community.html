@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/community-style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script
       src="https://kit.fontawesome.com/a3d19315f5.js"
       crossorigin="anonymous"
@@ -30,7 +31,8 @@
     </header>
     <main class="community">
       
-     
+      <div data-aos="fade-up" data-aos-duration="1500"
+      data-aos-easing="ease-in-out">
       <section class="mission">
         <h2>Our Mission</h2>
           <p>Plakat's main aim is to support and bolster local artists, from Copenhagen, as well as their art, by being a platform where unique and diverse art gets more accessible to admirers and allies.<br><br>In this way, we hope to positively bring value and a sense of affection to both artists and art lovers.
@@ -39,8 +41,9 @@
         <li><img src="imgs/pexels-ryutaro-tsukata-5220082.jpg" alt="close up of someones hands while drawing"></li>
       </section>
       
-    </article>
-     
+    </div>
+    <div data-aos="fade-right" data-aos-duration="1500"
+    data-aos-easing="ease-in-out">
       <section class="vision">
         <h2>Our Vision</h2>
         <p>
@@ -51,8 +54,9 @@
         <li><img src="imgs/pexels-rfstudio-3817559.jpg" alt="artist drawing" /></li>
         <li><img src="imgs/claudio-schwarz-purzlbaum-LkBsQLLR0Xs-unsplash.jpg" alt="poster in the street at night" /></li>
       </section>
-       
-      
+       </div>
+      <div data-aos="fade-left" data-aos-duration="1500"
+    data-aos-easing="ease-in-out">
       <h2>Our Values</h2>
       <section class="values">
         <article class="values-container">
@@ -86,12 +90,14 @@
       </p>
       </article>
       <li><img src="imgs/pexels-cottonbro-4626343.jpg" alt="women looking at the computer while laying in bed" /></li>
-
       </section>
+      </div><div data-aos="fade-in" data-aos-duration="1000"
+      data-aos-easing="ease-in-out">
 <section class="more-info">
       <h2>Support us</h2>
       <p>Plakat is a side project running on spare time and personal funds so if you feel like giving us some love and support the project, <a href="https://www.buymeacoffee.com/" target="_blank">buy us a coffee :) </a></p>
-      <h2>Get in touch</h2>
+      </div><div data-aos="fade-in" data-aos-duration="1000"
+    data-aos-easing="ease-in-out"><h2>Get in touch</h2>
       <p>If you have any questions or want to get in touch do so through <a href = "mailto: abc@example.com">contact@plakat.com.</a><br>
 
         You can also follow Plat on <a href = "facebook.com"target="_blank">Facebook </a>for updates and on <a href = "instagram.com"target="_blank">Instagram</a>for daily featured posters.<br>
@@ -99,8 +105,10 @@
         Additionally, you can also join our newsletter to get notified about upcoming exhibitions, collaboration projects, local events and news.</p>
 
       </section>
-
+</div>
 <!-- event slider -->
+<div data-aos="flip-down" data-aos-duration="1500"
+    data-aos-easing="ease-in-out">
 <section class="events-slider">
 <h2>Upcoming events</h2>
        <div id="carousel">
@@ -129,8 +137,9 @@
     </div>
     
   </section>
+  </div>
 <!-- newsletter -->
-
+<div data-aos="zoom-in-down">
 <form action="/action_page.php">
   <div class="container-2">
     <h2>Subscribe to our Newsletter!</h2>
@@ -153,13 +162,31 @@
     <input type="submit" value="Subscribe">
   </div>
 </form>
-
+</div>
 
 
         
     </main>
-    <footer></footer>
+  </div>
+      <footer>
+        <div class="footer-basic">
+        <div class="social">
+          <a href="#"><i class="fab fa-instagram"></i></a
+          ><a href="#"><i class="fab fa-snapchat"></i></a
+          ><a href="#"><i class="fab fa-twitter"></i></a
+          ><a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+ 
+        <p class="love">Made with love ❣</p>
+        <p class="copyright">Plakat © 2021</p>
+      </footer>
+
+  
     <script src="community.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>
 
